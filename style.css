@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+:root {
+    --primaria: #4f46e5;
+    --secundaria: #7c3aed;
+    --maisEscuro: #0a0f1c;
+    --claro: #e2e8f0;
+    --vidro:rgba(255,255,255,0.1);
+    }
+
+
+body {
+   width: 460px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #065E7C;
+    padding: 15px;
+
+}
+
+
+.foto-pata {
+    width: 48px;
+    height: 48px;
+    padding: 8px;
+    display: inline-block;
+    border-radius: 60%;
+    background: #6495a1;
+    color: rgb(102, 144, 156);
+}
+
+
+input[type="text"]::placeholder {
+  color: rgba(255, 255, 255, 0.877);
+}
+
+
+
+.cabecalho input {
+    width: 65%;
+    padding: 10px;
+    border-radius: 4px;
+    border: none;
+    color: var(--claro);
+    outline: none;
+    font-size: 18px;
+}
+
+
+
+
+.barra-form {
+   justify-content: space-around;
+   width: 100%;
+   background: var(--vidro);
+}
+
+
+
+.perfil {
+    width: 60px;
+    height: 60px;
+    border-radius: 60%;
+}
+
+
+
+.banne {
+    width: 100%;
+    height: 260px;
+    overflow: hidden;
+}
+
+
+
+.banne img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+.titulo {
+    padding: 20px;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+
+
+.botãos {
+   display: flex;
+   gap: 15px;
+   margin-left: 20px ;
+}
+
+
+.botãos i {
+    font-size: 19px;
+    padding: 8px;
+    display: inline-block;
+    border-radius: 60%;
+    background: #065E7C;
+    color: white;
+    
+}
+
+
+.conteudo {
+    padding: 10px;
+    border-radius: 40px;
+    margin: 0 20px;
+    line-height: 1.6;
+    
+}
+
+.artigos {
+    padding: 10px;
+    
+}
+
+
+
+.artigos h2 {
+    margin-left: 19px;
+}
+
+
+
+
+.cards  {  
+   padding: 19px;
+   flex-direction: column;
+}
+
+
+.artigos h3 {
+margin-bottom: 9px
+}
+
+
+.content {
+  align-items: flex-start;
+  gap: 1rem;
+  align-content: space-around;
+  display: flex;
+  
+
+}
+
+.content img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 48px;
+    border-radius: 6%;
+    width: 130px;
+    margin-right: 10px;
+    margin-top: 4px;
+    
+
+}
+
+.footer { 
+    text-align: center;
+    background-color: #387E96;
+    color: var(--claro);
+    justify-content: space-between;
+    padding: 24px;
+    }
+
+    
+    
+
+
+
